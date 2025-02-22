@@ -1,0 +1,6 @@
+http://localhost:8080/v1/property/list
+_, err := o.QueryTable(new(models.RentalProperty)).Limit(80).All(&rentalProperties)
+API_BASE_URL = https://booking-com18.p.rapidapi.com
+API_KEY = 12be05c2dbmsh67f511392bce657p15fa59jsnefa67fd6e054
+
+prometheus --config.file=prometheus.yml

@@ -1,0 +1,28 @@
+# PostgreSQL data files
+/data/
+
+# Environment files
+.env
+# Log files
+*.log
+# Go binaries
+*.bin
+
+For a Beego project, your .gitignore file should include the following items to ensure that unnecessary files, sensitive data, and dependencies are not included in the version control:
+
+gitignore
+Copy code
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.sum
+
